@@ -110,6 +110,11 @@ nav {
   background-color: white;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+.explore-item:hover {
+  color: white;
+  transition: 0.7s ease-in-out;
+  background-color: #fea116;
+}
 .fa-user,
 .fa-spoon,
 .fa-cart-shopping,
@@ -118,6 +123,19 @@ nav {
   padding: 6%;
   color: #fea116;
 }
+.explore-item > .fa-globe:hover {
+  color: white;
+}
+.fa-cart-shopping:hover {
+  color: white;
+}
+.fa-user:hover {
+  color: white;
+}
+.fa-spoon:hover {
+  color: white;
+}
+
 .explore-item > h1 {
   font-size: 1rem;
   padding: 2%;
